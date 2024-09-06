@@ -1,0 +1,26 @@
+package com.pradhan.dao.impl;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+import org.hibernate.service.ServiceRegistry;
+
+import com.pradhan.dao.StudentDAO;
+import com.pradhan.entity.Student;
+
+public class StudentDAOImpl implements StudentDAO {
+	
+	SessionFactory factory;
+	
+	//Constructor
+	public StudentDAOImpl(){
+		ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+		
+	}
+
+	@Override
+	public void saveStudent(Student student) {
+		
+
+	}
+
+}

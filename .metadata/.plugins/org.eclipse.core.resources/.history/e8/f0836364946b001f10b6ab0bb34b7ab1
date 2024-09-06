@@ -1,0 +1,5 @@
+<hibernate-mapping>
+<class name ="com.pradhan.entity.Student"  table="TBL-PRADHAN">
+
+</class>
+</hibernate-mapping>

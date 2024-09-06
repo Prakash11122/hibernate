@@ -1,0 +1,8 @@
+<hibernate-mapping>
+	<class name="com.pradhan.entity.Student" table="TBL-PRADHAN">
+     <id name="sid"  column="SID"/>
+     <property name = "sname" column="SNAME"/>
+     <property name = "gender" column="GENDER"/>
+     <property name = "marks" column="MARKS"/>
+	</class>
+</hibernate-mapping>

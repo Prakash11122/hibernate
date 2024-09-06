@@ -1,0 +1,13 @@
+package com.pradhan.entity;
+
+public class Student {
+	
+	private  Integer sid;
+	private String sname;
+	private String gender;
+	private Integer marks;
+	
+	 
+	
+
+}

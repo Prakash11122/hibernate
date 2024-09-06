@@ -1,0 +1,22 @@
+package com.pradhan.dao.impl;
+
+import org.hibernate.SessionFactory;
+
+import com.pradhan.dao.StudentDAO;
+import com.pradhan.entity.Student;
+
+public class StudentDAOImpl implements StudentDAO {
+	
+	SessionFactory factory;
+	
+	public StudentDAOImpl(){
+		
+	}
+
+	@Override
+	public void saveStudent(Student student) {
+		
+
+	}
+
+}
