@@ -21,8 +21,20 @@ public class Test {
 //		
 //		dao.saveStudent(student);
 		
-		Student student  = dao.loadStudent(219);
+		//load from database
+		/*
+		Student student  = dao.loadStudent(11221);
 		System.out.println(student);
+		*/
+		
+		//update
+		/*
+		Student stu = dao.updateStudent(11221, 500);
+		System.out.println(stu);
+		*/
+		
+		//Delete
+		dao.deleteStudent(11221);
 		
 		
 		
