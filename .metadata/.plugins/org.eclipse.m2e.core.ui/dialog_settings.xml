@@ -28,9 +28,11 @@
 			<item value="com.pradhan.entity"/>
 		</list>
 		<list key="groupId">
+			<item value="com.pradhan "/>
 			<item value="com.pradhan"/>
 		</list>
 		<list key="artifactId">
+			<item value="JpaHibernateApp1"/>
 			<item value="HibernateApplication1"/>
 		</list>
 		<list key="projectNameTemplate">
