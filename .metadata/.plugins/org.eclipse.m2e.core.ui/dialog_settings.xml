@@ -32,6 +32,7 @@
 			<item value="com.pradhan"/>
 		</list>
 		<list key="artifactId">
+			<item value=" EmbeddableApp"/>
 			<item value="JpaHibernateApp1"/>
 			<item value="HibernateApplication1"/>
 		</list>
