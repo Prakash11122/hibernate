@@ -42,7 +42,9 @@ public class Tester {
 		/*
 		 * call deleteProductById method of dao class
 		 */
-		dao.deleteProductById(4444);
+//		dao.deleteProductById(4444);
+		
+		dao.testEntityState();
 
 	}
 

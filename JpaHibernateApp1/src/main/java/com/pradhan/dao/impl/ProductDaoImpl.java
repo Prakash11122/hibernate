@@ -79,4 +79,29 @@ public class ProductDaoImpl implements ProductDao{
 		
 	}
 
+	@Override
+	public void testEntityState() {
+		EntityManager entityManager = factory.createEntityManager();
+		
+		/*
+		 * create a new product object
+		  */
+		ProductEntity pe = new ProductEntity(); //transient state
+		pe.setProductName("bags");
+		pe.setProductId(111222);
+		pe.setQuantity(10);
+		pe.setUnitPrice(10000.0);
+		
+		EntityTransaction tx = entityManager.getTransaction();
+		tx.begin();
+		entityManager.persist(pe); //persistent state
+		tx.commit();
+		
+		entityManager.detach(pe); //detached state
+		pe.setUnitPrice(110000.0);//the change made to an entity
+		entityManager.close(); //in detached state does't effect
+		
+		
+	}
+
 }
