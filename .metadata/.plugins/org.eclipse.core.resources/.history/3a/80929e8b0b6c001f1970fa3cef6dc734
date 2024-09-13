@@ -1,5 +1,0 @@
-package com.pradhan.dao;
-
-public interface StudentDAO {
-
-}
