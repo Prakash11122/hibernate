@@ -6,7 +6,7 @@ public class AppConstants {
 	
 	public static final String QUERY2 = "FROM EmployeeEntity e";
 	
-	public static final String QUERY3 =  "SELECT E.empName, e.salary FROM EmployeeEntity e";
+	public static final String QUERY3 =  "SELECT e.empName, e.Salary FROM EmployeeEntity e";
 	
 
 }

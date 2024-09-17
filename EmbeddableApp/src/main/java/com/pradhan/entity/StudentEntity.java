@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Student")
-public class StudentEntity {
+public class StudentEntity{
 	
 	@EmbeddedId
 	private StudentCompositeKey compositeKey;

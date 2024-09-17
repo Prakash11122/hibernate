@@ -10,7 +10,7 @@
 		<!-- PersistenceProvider -->
 		<provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
 		<!-- Entity class -->
-		<class>com.pradhan.entity.StudentEntity</class>
+		<class>com.pradhan.entity.StudentCompositeKey</class>
 		<properties>
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />

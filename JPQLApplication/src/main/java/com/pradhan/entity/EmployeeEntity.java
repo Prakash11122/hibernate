@@ -45,6 +45,23 @@ public class EmployeeEntity {
 	public void setDeptNumber(Integer deptNumber) {
 		this.deptNumber = deptNumber;
 	}
+	@Override
+	public String toString() {
+		return "EmployeeEntity [empNumber=" + empNumber + ", empName=" + empName + ", Salary=" + Salary
+				+ ", deptNumber=" + deptNumber + "]";
+	}
+	public EmployeeEntity(Integer empNumber, String empName, Double salary, Integer deptNumber) {
+		super();
+		this.empNumber = empNumber;
+		this.empName = empName;
+		Salary = salary;
+		this.deptNumber = deptNumber;
+	}
+	public EmployeeEntity() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+	
 	
 	
 
