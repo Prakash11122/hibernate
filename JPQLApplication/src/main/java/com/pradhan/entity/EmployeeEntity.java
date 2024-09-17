@@ -11,12 +11,16 @@ public class EmployeeEntity {
 	@Id
 	@Column(name = "empno")
 	private Integer empNumber;
+	
 	@Column(name = "empname")
 	private String empName;
+	
 	@Column(name = "salary")
 	private Double Salary;
+	
 	@Column(name = "deptno")
 	private Integer deptNumber;
+	
 	public Integer getEmpNumber() {
 		return empNumber;
 	}

@@ -17,8 +17,6 @@
     <fullyQualifiedTypeName name="javax.persistence.Embeddable"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="javax.persistence.EmbeddedId"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
     <fullyQualifiedTypeName name="com.pradhan.dao.StudentDao"/>
     <fullyQualifiedTypeName name="com.pradhan.dao.impl.StudentDaoImpl"/>
     <fullyQualifiedTypeName name="com.pradhan.entity.StudentCompositeKey"/>
@@ -30,6 +28,8 @@
     <fullyQualifiedTypeName name="javax.persistence.Table"/>
     <fullyQualifiedTypeName name="javax.persistence.Id"/>
     <fullyQualifiedTypeName name="javax.persistence.Column"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.pradhan.entity.EmployeeEntity"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
 </qualifiedTypeNameHistroy>

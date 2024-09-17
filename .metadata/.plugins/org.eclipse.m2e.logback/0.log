@@ -1973,3 +1973,44 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact mysql:mysql-c
 2024-09-13 15:06:44,141 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
 2024-09-13 15:06:50,401 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2024-09-13 15:06:50,403 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-13 15:33:34,231 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@248779bf{STOPPING}[12.0.6,sto=0]
+2024-09-13 15:33:34,234 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@44e262b4{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2024-09-13 20:25:51,067 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-14 14:09:39,302 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-09-17 17:08:33,940 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-09-17 17:09:29,740 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 17:09:29,862 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:09:29,867 [Worker-24: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/EmbeddableApp/src/test/resources
+2024-09-17 17:09:30,319 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src/main/resources to target/classes
+2024-09-17 17:09:30,323 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/HibernateApplication1/src/test/resources
+2024-09-17 17:09:30,401 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 17:09:30,445 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:09:30,448 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:09:30,640 [Worker-9: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - The artifact mysql:mysql-connector-java:jar:8.0.32 has been relocated to com.mysql:mysql-connector-j:jar:8.0.32: MySQL Connector/J artifacts moved to reverse-DNS compliant Maven 2+ coordinates.
+2024-09-17 17:09:30,694 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:09:30,701 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JpaHibernateApp1/src/test/resources
+2024-09-17 17:10:46,767 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:10:46,768 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:13:23,409 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:13:23,411 [Worker-8: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:19:11,969 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-12.0.6; built: 2024-01-30T02:43:24.387Z; git: 78ab6e6ba163f89cdd97f2ae0283fbb5e371cfaf; jvm 21.0.2+13-LTS-58
+2024-09-17 17:19:11,992 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started oeje8n.ContextHandler$CoreContextHandler@6e49c712{/help,/help,b=null,a=AVAILABLE,h=oeje8n.ContextHandler$CoreContextHandler$CoreToNestedHandler@3d4ed9b0{STARTED}}
+2024-09-17 17:19:11,993 [Start Help Server] INFO  o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2024-09-17 17:19:12,000 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@5bdb25c7{HTTP/1.1, (http/1.1)}{127.0.0.1:55158}
+2024-09-17 17:19:12,008 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@233b026e{STARTING}[12.0.6,sto=0] @647996ms
+2024-09-17 17:21:49,242 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:21:49,244 [Worker-4: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:21:58,269 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:21:58,271 [Worker-9: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:22:08,722 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:22:08,723 [Worker-31: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:22:10,999 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:22:11,000 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:24:19,232 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:24:19,234 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:27:58,131 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:27:58,133 [Worker-28: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:29:39,374 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:29:39,376 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
+2024-09-17 17:30:58,118 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2024-09-17 17:30:58,120 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/JPQLApplication/src/test/resources
