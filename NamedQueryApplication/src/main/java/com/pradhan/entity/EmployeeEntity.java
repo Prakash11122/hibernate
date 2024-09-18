@@ -3,10 +3,16 @@ package com.pradhan.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.NamedNativeQueries;
+import javax.persistence.NamedNativeQuery;
+import javax.persistence.NamedQueries;
+import javax.persistence.NamedQuery;
 import javax.persistence.Table;
 
 @Entity
 @Table(name = "Emp")
+@NamedQuery(name="query1", query="SELECT e FROM EmployeeEntity e WHERE e.deptNumber =?1")
+@NamedNativeQuery(name="query2", query="select * from emp where salary > ?", resultClass = EmployeeEntity.class)
 public class EmployeeEntity {
 	@Id
 	@Column(name = "empno")
