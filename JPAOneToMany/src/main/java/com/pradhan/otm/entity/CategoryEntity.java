@@ -5,6 +5,7 @@ import java.util.List;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
@@ -22,7 +23,7 @@ public class CategoryEntity {
 	private String categoryName;
 	
 	
-	@OneToMany(cascade =CascadeType.ALL)
+	@OneToMany(cascade =CascadeType.ALL, fetch = FetchType.EAGER)
 	@JoinColumn(name="category_if_fk")
 	private List<ProductEntity> lstOfProducts;
 

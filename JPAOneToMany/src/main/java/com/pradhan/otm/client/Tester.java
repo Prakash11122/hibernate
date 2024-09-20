@@ -1,8 +1,7 @@
 package com.pradhan.otm.client;
 
 import java.io.File;
-import java.io.FileInputStream;
-import java.util.Arrays;
+import java.io.FileOutputStream;
 import java.util.List;
 
 import com.pradhan.otm.dao.CategoryDao;
@@ -20,9 +19,12 @@ public class Tester {
 		call saveCategory method()
 		*/
 		
+		/*
 		CategoryEntity categoryEntity = new CategoryEntity();
 		categoryEntity.setCategoryId(1122);
 		categoryEntity.setCategoryName("Electronic");
+		
+		//create ProductEntity instance 
 		
 		ProductEntity productEntity1 = new ProductEntity();
 		productEntity1.setProductId(5555);
@@ -35,7 +37,7 @@ public class Tester {
 		fis.read(imageBytes);
 		productEntity1.setProductImage(imageBytes);
 		
-		
+		//create ProductEntity instance-2
 		
 		ProductEntity productEntity2 = new ProductEntity();
 		productEntity2.setProductId(67098);
@@ -49,7 +51,7 @@ public class Tester {
 		productEntity2.setProductImage(imageBytes_tv);
 		
 		
-		
+		//create ProductEntity instance -3
 		
 		ProductEntity productEntity3 = new ProductEntity();
 		productEntity3.setProductId(67574);
@@ -62,10 +64,33 @@ public class Tester {
 		fis3.read(imageBytes_oven);
 		productEntity3.setProductImage(imageBytes_oven);
 		
+		//add productentity  instances to collection
+		
 		List<ProductEntity> lstOfProducts = Arrays.asList(productEntity1,productEntity2,productEntity3);
+		
+		//set the collection to categoryEntity instance
+		
 		categoryEntity.setLstOfProducts(lstOfProducts);
 		
 		dao.saveCategory(categoryEntity);
+		
+		*/
+		
+		CategoryEntity fetchCategory = dao.fetchCategory(1122);
+		System.out.println("category name : " + fetchCategory.getCategoryName());
+		List<ProductEntity> lst = fetchCategory.getLstOfProducts();
+		
+		//read the first element of the list
+		
+		ProductEntity pEntity = lst.get(0);
+		System.out.println("product Id : "+ pEntity.getProductId());
+		System.out.println("product Name : "+ pEntity.getProductName());
+		byte[] bytesOfImage= pEntity.getProductImage();
+		File f1 = new File("/Users/prakashpradhan/Downloads/restoredImage/image_db.jpg");
+		FileOutputStream fos = new FileOutputStream(f1);
+		fos.write(bytesOfImage);
+		System.out.println("please check the image at : "+ f1.getAbsolutePath());
+		
 		
 
 	}
