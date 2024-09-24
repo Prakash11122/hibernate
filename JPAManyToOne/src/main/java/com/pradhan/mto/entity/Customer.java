@@ -5,16 +5,17 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
+
 @Entity
-@Table(name="tbl_customer")
-public class Customer{
-	
+@Table(name = "tbl_customer")
+public class Customer {
+
 	@Id
-	@Column(name="customer_id")
+	@Column(name = "customer_id")
 	private Integer customerId;
-	
+
 	@Id
-	@Column(name="customer_name")
+	@Column(name = "customer_name")
 	private String customerName;
 
 	public Integer getCustomerId() {
@@ -36,6 +37,17 @@ public class Customer{
 	@Override
 	public String toString() {
 		return "Customer [customerId=" + customerId + ", customerName=" + customerName + "]";
+	}
+
+	public Customer(Integer customerId, String customerName) {
+		super();
+		this.customerId = customerId;
+		this.customerName = customerName;
+	}
+
+	public Customer() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 	
 	

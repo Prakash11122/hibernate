@@ -54,7 +54,7 @@ public class LoanDAOImpl implements LoanDAO {
 			tx.rollback();
 			ex.printStackTrace();
 		}finally {
-			em.close();
+			em.close(); 
 		}
 		
 

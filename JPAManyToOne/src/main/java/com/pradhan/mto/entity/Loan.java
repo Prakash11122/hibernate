@@ -15,14 +15,14 @@ public class Loan {
 	@Column(name="loan_id")
 	private Integer loanId;
 	
-	@Column(name="loaN_TYPE")
+	@Column(name="loan_typeE")
 	private String loanType;
 	
 	@Column(name="amount")
 	private Double amount;
 	
 	@ManyToOne(cascade = CascadeType.ALL)
-	@JoinColumn(name="customer_id")
+	@JoinColumn(name="customer")
 	private Customer customer;
 
 	public Integer getLoanId() {
@@ -59,8 +59,11 @@ public class Loan {
 
 	@Override
 	public String toString() {
-		return "Loan [loanId=" + loanId + ", loanType=" + loanType + ", amount=" + amount + "]";
+		return "Loan [loanId=" + loanId + ", loanType=" + loanType + ", amount=" + amount + ", customer=" + customer
+				+ "]";
 	}
+
+	
 	
 	 
 	
