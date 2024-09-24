@@ -49,11 +49,14 @@
     <fullyQualifiedTypeName name="com.pradhan.otm.dao.CategoryDao"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.dao.impl.CategoryDAOImpl"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.entity.CategoryEntity"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="byte"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.entity.ProductEntity"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+    <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
 </qualifiedTypeNameHistroy>

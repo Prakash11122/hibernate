@@ -25,22 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.pradhan.otm.entity"/>
-			<item value="com.pradhan.Entity"/>
 			<item value="com.pradhan.entity"/>
 		</list>
 		<list key="groupId">
-			<item value="com.pradhan "/>
 			<item value="com.pradhan"/>
 		</list>
 		<list key="artifactId">
-			<item value="JPAOneToMany"/>
-			<item value="JPAProcedure"/>
-			<item value="NamedQueryApplication"/>
-			<item value="JPQLApplication"/>
-			<item value=" EmbeddableApp"/>
-			<item value="JpaHibernateApp1"/>
-			<item value="HibernateApplication1"/>
+			<item value="JPAManyToOne"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
