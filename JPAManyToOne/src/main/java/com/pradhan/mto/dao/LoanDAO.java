@@ -8,6 +8,6 @@ public interface LoanDAO {
 	
 	Loan fetchLoanDetailsById(Integer LoanId);
 	
-	void removeLoan(Loan loanid); 
+	void removeLoan(Integer loanId); 
 
 }

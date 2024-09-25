@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.hibernate.service.ServiceRegistry"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.Metadata"/>
-    <fullyQualifiedTypeName name="org.hibernate.boot.MetadataSources"/>
-    <fullyQualifiedTypeName name="com.pradhan.dao.StudentDAO"/>
-    <fullyQualifiedTypeName name="com.pradhan.dao.impl.StudentDAOImpl"/>
-    <fullyQualifiedTypeName name="org.hibernate.Session"/>
     <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
     <fullyQualifiedTypeName name="com.pradhan.entity.Student"/>
     <fullyQualifiedTypeName name="org.hibernate.annotations.CreationTimestamp"/>
@@ -35,17 +28,8 @@
     <fullyQualifiedTypeName name="com.pradhan.dao.EmpDAO"/>
     <fullyQualifiedTypeName name="com.pradhan.dao.Impl.EmpDaoImpl"/>
     <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
-    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
-    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
-    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
-    <fullyQualifiedTypeName name="javax.persistence.Table"/>
-    <fullyQualifiedTypeName name="javax.persistence.Id"/>
-    <fullyQualifiedTypeName name="javax.persistence.Column"/>
     <fullyQualifiedTypeName name="javax.persistence.Lob"/>
     <fullyQualifiedTypeName name="javax.persistence.EntityManagerFactory"/>
-    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.dao.CategoryDao"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.dao.impl.CategoryDAOImpl"/>
     <fullyQualifiedTypeName name="com.pradhan.otm.entity.CategoryEntity"/>
@@ -58,5 +42,22 @@
     <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="javax.persistence.Persistence"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityManager"/>
+    <fullyQualifiedTypeName name="javax.persistence.EntityTransaction"/>
+    <fullyQualifiedTypeName name="javax.persistence.IdClass"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="com.pradhan.mto.dao.LoanDAO"/>
+    <fullyQualifiedTypeName name="com.pradhan.mto.dao.impl.LoanDAOImpl"/>
+    <fullyQualifiedTypeName name="java.awt.Point"/>
+    <fullyQualifiedTypeName name="com.pradhan.mto.entity.Loan"/>
     <fullyQualifiedTypeName name="javax.persistence.FetchType"/>
+    <fullyQualifiedTypeName name="com.pradhan.mto.entity.Customer"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
 </qualifiedTypeNameHistroy>

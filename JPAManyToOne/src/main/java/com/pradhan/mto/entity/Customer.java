@@ -7,14 +7,13 @@ import javax.persistence.Table;
 
 
 @Entity
-@Table(name = "tbl_customer")
+@Table(name ="tbl_customer")
 public class Customer {
 
 	@Id
 	@Column(name = "customer_id")
 	private Integer customerId;
 
-	@Id
 	@Column(name = "customer_name")
 	private String customerName;
 

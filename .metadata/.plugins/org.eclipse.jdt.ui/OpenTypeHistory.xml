@@ -4,4 +4,5 @@
     <typeInfo handle="=JPQLApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pradhan.dao{EmployeeDao.java[EmployeeDao" modifiers="513" timestamp="1726576678000"/>
     <typeInfo handle="=NamedQueryApplication/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pradhan.dao{EmpDAO.java[EmpDAO" modifiers="513" timestamp="1726640217000"/>
     <typeInfo handle="=JPAOneToMany/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pradhan.otm.dao{CategoryDao.java[CategoryDao" modifiers="513" timestamp="1726764288000"/>
+    <typeInfo handle="=JPAManyToOne/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.pradhan.mto.dao{LoanDAO.java[LoanDAO" modifiers="513" timestamp="1727180443000"/>
 </typeInfoHistroy>

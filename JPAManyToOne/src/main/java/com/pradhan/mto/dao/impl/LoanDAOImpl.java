@@ -18,7 +18,7 @@ public class LoanDAOImpl implements LoanDAO {
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();
 		try {
-			em.persist(loan);
+			em.merge(loan);
 			tx.commit();
 			System.out.println("Loan onject is persisted successfully");
 		} catch (Exception e) {
@@ -41,7 +41,7 @@ public class LoanDAOImpl implements LoanDAO {
 	}
 
 	@Override
-	public void removeLoan(Loan loanId) {
+	public void removeLoan(Integer loanId) {
 		EntityManager em = factory.createEntityManager();
 		EntityTransaction tx = em.getTransaction();
 		tx.begin();

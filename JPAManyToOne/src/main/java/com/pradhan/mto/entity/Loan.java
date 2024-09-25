@@ -3,6 +3,7 @@ package com.pradhan.mto.entity;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
@@ -21,7 +22,7 @@ public class Loan {
 	@Column(name="amount")
 	private Double amount;
 	
-	@ManyToOne(cascade = CascadeType.ALL)
+	@ManyToOne(cascade = CascadeType.ALL, fetch=FetchType.EAGER)
 	@JoinColumn(name="customer")
 	private Customer customer;
 
