@@ -25,10 +25,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.it.pradhan.HibernateWithJpa"/>
 		</list>
 		<list key="groupId">
+			<item value="com.it.pradhan"/>
 		</list>
 		<list key="artifactId">
+			<item value="HibernateWithJpa"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
