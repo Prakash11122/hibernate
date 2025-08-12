@@ -1,4 +1,4 @@
-package com.hibernate._hibernate;
+package com.hibernate.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -40,5 +40,11 @@ public class Song {
 	public void setArtist(String artist) {
 		this.artist = artist;
 	}
+
+	@Override
+	public String toString() {
+		return "Song [id=" + id + ", songName=" + songName + ", artist=" + artist + "]";
+	}
+	
 
 }
