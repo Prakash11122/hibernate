@@ -20,7 +20,17 @@ public class DeleteApp {
 		SessionFactory sessionFactory = configuration.buildSessionFactory();
 
 		Session session = sessionFactory.openSession();
-		Song song = session.get(Song.class, 1);
-		System.out.println(song);
+		
+		
+		session.beginTransaction();
+		
+		Song song = session.get(Song.class, 3);
+		
+		session.delete(song);
+		
+		session.getTransaction().commit();
+		session.close();
+		sessionFactory.close();
+
 	}
 }

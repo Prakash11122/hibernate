@@ -5587,3 +5587,19 @@ org.eclipse.core.runtime.CoreException: Launch configuration Test references clo
 2025-08-12 23:22:21,143 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
 2025-08-12 23:23:08,337 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
 2025-08-12 23:23:08,339 [Worker-132: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:24:00,443 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:24:00,444 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:24:01,460 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:24:01,461 [Worker-137: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:26:13,485 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:26:13,487 [Worker-129: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:26:22,289 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:26:22,290 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:27:10,006 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:27:10,009 [Worker-130: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:27:36,433 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:27:36,435 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:28:57,525 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:28:57,527 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
+2025-08-12 23:29:06,287 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src/main/resources to target/classes
+2025-08-12 23:29:06,288 [Worker-140: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory /Users/prakashpradhan/Documents/java/hibernate/01_hibernate/src/test/resources
