@@ -23,6 +23,9 @@
 	<section name="java.lang.Class">
 		<item key="replaceBarOpen" value="false"/>
 		<list key="findhistory">
+			<item value="hibernate.dialect"/>
+			<item value="show"/>
+			<item value="username"/>
 			<item value="password"/>
 		</list>
 	</section>
