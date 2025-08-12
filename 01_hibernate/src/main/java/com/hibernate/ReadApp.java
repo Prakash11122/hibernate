@@ -5,22 +5,17 @@ import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
 import com.hibernate.entity.Song;
+import com.hibernate.util.HibernateUtils;
 
 public class ReadApp {
+
 	public static void main(String[] args) {
 
-		// create configuration
-		Configuration configuration = new Configuration();
-		// configuration.configure("hibernate.cfg.xml"); if you remove this
-		// configuration file still it work fine,.
-		configuration.configure();
-		configuration.addAnnotatedClass(Song.class);
-
-		// create session factory
-		SessionFactory sessionFactory = configuration.buildSessionFactory();
+		SessionFactory sessionFactory =HibernateUtils.getSessionFactory();
 
 		Session session = sessionFactory.openSession();
-		Song song = session.get(Song.class, 1);
+		Song song = session.get(Song.class, 2);
 		System.out.println(song);
 	}
+
 }
