@@ -16,9 +16,9 @@ public class CreateApp {
 
 		Song song1 = new Song();
 
-		song1.setId(04);
-		song1.setSongName("kalia re");
-		song1.setArtist("by prakash");
+		//song1.setId(04);
+		song1.setSongName("Jagannath");
+		song1.setArtist("Khyati Roy");
 
 		session.beginTransaction();
 		session.save(song1);
